@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ c.title }}</title>
+</head>
+
+<body>
+    <h1>{{ c.heading }}</h1>
+    <p>{{ c.paragraph }}</p>
+    <img src="{{ c.image.url }}" width="300" height="400" alt="Imagen">
+    <p><a href="{% url 'build_static' %}">🛠️ Generar sitio estático</a></p>
+</body>
+
+</html>
